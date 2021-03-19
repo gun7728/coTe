@@ -2,7 +2,7 @@ import java.util.*;
 
 class TreeNode{
     int val;
-    TreeNode left,rigth;
+    TreeNode left,right;
     TreeNode(int x){
         this.val = x;
     }
@@ -18,9 +18,9 @@ public class BinaryTree {
 
         TreeNode root = new TreeNode(3);
         root.left = new TreeNode(4);
-        root.rigth = new TreeNode(5);
+        root.right = new TreeNode(5);
         root.left.left = new TreeNode(6);
-        root.left.rigth = new TreeNode(7);
+        root.left.right = new TreeNode(7);
         System.out.println( solve(root));
     }
 
@@ -42,8 +42,8 @@ public class BinaryTree {
                 if(node.left !=null){
                     q.offer(node.left);
                 }
-                if(node.rigth!=null){
-                    q.offer(node.rigth);
+                if(node.right!=null){
+                    q.offer(node.right);
                 }
             }
 
