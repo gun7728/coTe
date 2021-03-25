@@ -3,8 +3,6 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.Stack;
 
-import jdk.internal.jshell.tool.resources.l10n;
-
 public class cote2 {
     public static void main(String[] args) {
         // 1.
